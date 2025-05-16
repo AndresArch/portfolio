@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <a href="#" class="logo"><span>Andres Loera</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <button
+        type="button" class="visit-btn" onclick="window.open('https://github.com/AndresArch')">GitHub</button>
+    </header>
+    <!-- Navbar -->
+
+    <!-- home section -->
+    <section id="home" class="home">
+      <div class="home-container">
+        <img src="/assets/memoji.png" alt="" />
+
+        <!-- info -->
+        <div class="info-box">
+          <div class="text">
+            <h3>👋, I'm</h3>
+            <h1>Andres Loera</h1>
+            <span>Turning ideas into interactive reality</span>
+            <p class="bio">
+              A Computer Science and Cybersecurity student focused on full-stack
+              development, web security, and artificial intelligence. I’m
+              currently sharpening my skills and seeking opportunities to build
+              secure, intelligent software that creates real impact.
+            </p>
+          </div>
+          <!-- info -->
+
+          <!-- buttons -->
+          <div class="btn-group">
+            <div class="btn">
+              <a href="resume.pdf" download>Download CV</a>
+            </div>
+            <div class="btn">Contact</div>
+          </div>
+          <!-- buttons -->
+
+          <!-- socials -->
+          <div class="socials">
+            <a
+            href="https://github.com/your-username"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/your-profile"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          </div>
+          <!-- socials -->
+        </div>
+      </div>
+    </section>
+    <!-- home Section -->
+
+    <!-- About Seciton -->
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-details">
+        <h3>Background</h3>
+        <p>
+          I’m a Computer Science and Cybersecurity student passionate about
+          creating secure and intelligent web applications. My journey began
+          with a curiosity about how websites work, which quickly evolved into a
+          love for building full-stack projects.
+        </p>
+
+        <h3>Education</h3>
+        <p>
+          B.S. in Computer Science & Cybersecurity <br />
+          California State University, Fullerton <br />
+          Expected Graduation: 2026
+        </p>
+
+        <h3>Skills Preview</h3>
+        <p>
+          HTML5, CSS3, JavaScript, Python, Web Security, Git & GitHub <br />
+          <a href="#skills">View Full Skills</a>
+        </p>
+
+        <h3>Resume</h3>
+        <p>
+          <a href="resume.pdf" download>Download my resume (PDF)</a>
+        </p>
+
+        <h3>Interests</h3>
+        <p>
+          I enjoy hackathons, AI exploration, building web tools, and helping
+          others learn to code. Outside tech, I’m into space documentaries and
+          classic RPG games.
+        </p>
+      </div>
+    </section>
+    <!-- About Section -->
+
+   
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Recent Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="assets/project_1.png" alt="Screenshot of Project 1" />
+          <h3>FullyHacks Hackathon Website</h3>
+
+          <p>
+            <strong>Description:</strong><br />
+            A hackathon website designed for FullyHacks 2025. It includes
+            registration, sponsor application forms, and a countdown timer.
+          </p>
+
+          <p>
+            <strong>Technologies Used:</strong><br />
+            Typescript, React, NodeJS, and TailwindCSS
+          </p>
+
+          <p>
+            <strong>Challenges Faced:</strong><br />
+            Creating a responsive footer and a calendar component
+          </p>
+
+          <p>
+            <strong>Outcome:</strong><br />
+            Used live by 400+ attendees; helped collect sponsors and streamline
+            event management.
+          </p>
+
+          <div class="btn-group">
+            <a class="project-btn" href="/projects/project1.html">Learn More</a>
+            <a
+              class="project-btn"
+              href="https://github.com/acmcsufoss"
+              target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project 2.png" alt="Screenshot of Project 1" />
+          <h3>Cafeteria Ordering System</h3>
+
+          <p>
+            <strong>Description:</strong><br />
+            A system where restaurant owners can upload their menu and manage. 
+            Users can order food for pickup or delivery.
+          </p>
+
+          <p>
+            <strong>Technologies Used:</strong><br />
+            Typescript, MongoDB, ExpressJS, React, NodeJS, and TailwindCSS
+          </p>
+
+          <p>
+            <strong>Challenges Faced:</strong><br />
+            Managing data, creating safe API's, Managing login data with various users
+          </p>
+
+          <p>
+            <strong>Outcome:</strong><br />
+            An A+ on our class project!
+          </p>
+
+          <div class="btn-group">
+            <a class="project-btn" href="projects/project2.html">Learn More</a>
+            <a
+              class="project-btn"
+              href="https://github.com/mp28jam28/Cafeteria-Ordering-System"
+              target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Web Security</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Non-Technical Skills</h3>
+          <ul>
+            <li>Team Collaboration</li>
+            <li>Public Speaking</li>
+            <li>Time Management</li>
+            <li>Problem Solving</li>
+            <li>Adaptability</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="input">
+          <input type="text" placeholder="eamil@email.com" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="btn">Submit</div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">© All Rights Reserved | Andres Loera</p>
+    </footer>
+    <script src="index.js">
+      Test
+    </script>
+  </body>
+</html>
